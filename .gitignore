@@ -1,0 +1,45 @@
+# User requested ignores
+docs/steps/
+docs/frontend-backend-management.txt
+steps/
+frontend-backend-management.txt
+
+# Prisma generated files
+packages/db/src/generated/
+
+# TypeScript & Next.js build files
+*.tsbuildinfo
+next-env.d.ts
+
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Environment files
+.env
+.env*.local
+!.env.example
+
+# Next.js
+.next/
+out/
+
+# Turbo
+.turbo/
+
+# Build outputs
+dist/
+build/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS & Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

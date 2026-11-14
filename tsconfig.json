@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "skipLibCheck": true
+  },
+  "exclude": [
+    "kenney_tiny-dungeon",
+    "node_modules",
+    "dist",
+    ".next",
+    "apps",
+    "packages"
+  ]
+}
+
